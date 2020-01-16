@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace TDDCursusLibrary
 {
@@ -18,12 +19,7 @@ namespace TDDCursusLibrary
             {
                 throw new ArgumentException();
             }
-            var totaal = decimal.Zero;
-            foreach (var getal in getallen)
-            {
-                totaal += getal;
-            }
-            return totaal / getallen.Length;
+            return getallen.Average();
         }
     }
 }
