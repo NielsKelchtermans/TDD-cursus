@@ -10,7 +10,14 @@ namespace TDDCursusLibrary
         public void Storten(decimal bedrag)
         {
             // throw new NotImplementedException();
+            if (bedrag <=0)
+            {
+                throw new ArgumentException();
+            }
+            
             Saldo += bedrag;
+            
+           
         }
         public decimal Saldo
         {
