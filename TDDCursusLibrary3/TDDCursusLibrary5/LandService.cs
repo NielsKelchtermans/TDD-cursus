@@ -15,7 +15,9 @@ namespace TDDCursusLibrary
         }
         public decimal FindVerhoudingOppervlakteLandTovOppervlakteAlleLanden(string landcode)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            var land = landDAO.Read(landcode);
+            return (decimal) land.Oppervlakte / landDAO.OppervlakteAlleLanden();
         }
     }
 }
