@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCursusLibrary5", "TDDCursusLibrary5\TDDCursusLibrary5.csproj", "{8E8194AE-EBE1-4F64-8149-BCDD978E7C48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDCursusLibrary", "TDDCursusLibrary5\TDDCursusLibrary.csproj", "{8E8194AE-EBE1-4F64-8149-BCDD978E7C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCursusLibraryTest5", "TDDCursusLibraryTest5\TDDCursusLibraryTest5.csproj", "{75559267-A93C-4FE4-AE8D-1B94FE1B496B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDCursusLibraryTest", "TDDCursusLibraryTest5\TDDCursusLibraryTest.csproj", "{75559267-A93C-4FE4-AE8D-1B94FE1B496B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

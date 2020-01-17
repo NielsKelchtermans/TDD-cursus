@@ -5,9 +5,15 @@
 
     <IsPackable>false</IsPackable>
 
-    <AssemblyName>TDDCursusLibraryTest</AssemblyName>
+    <AssemblyName>TDDCursusLibraryTest5</AssemblyName>
 
     <RootNamespace>TDDCursusLibraryTest</RootNamespace>
+
+    <ApplicationIcon />
+
+    <OutputType>Library</OutputType>
+
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TDDCursusLibrary5\TDDCursusLibrary5.csproj" />
+    <ProjectReference Include="..\TDDCursusLibrary5\TDDCursusLibrary.csproj" />
   </ItemGroup>
 
 </Project>
